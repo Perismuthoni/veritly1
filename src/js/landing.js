@@ -1,30 +1,29 @@
-import './App.css';
 import React from 'react';
-import FAQ from './components/faq';
-import TEXTTOGGLE from './components/textToggle';
+import FAQ from '../components/faq';
+import TEXTTOGGLE from '../components/textToggle';
+import '../css/landing.css';
+import Navbar from './navbar';
+import Footer from './footer';
+import Dashboard_img from '../images/dashboard.png';
+import increase_icon from '../images/increase_icon.svg';
+import central_icon from '../images/central_icon.svg';
+import random_icon from '../images/random_icon.svg';
+import loop_icon from '../images/loop_icon.png';
+import about from '../images/about.png';
+import tick from '../images/tick.svg';
+import feature from '../images/feature.png';
+import dashboard2 from '../images/dashboard2.png';
+import steve from '../images/steve.png';
+import muthoni from '../images/muthoni.png';
+import paulo from '../images/paulo.png';
+import miranda from '../images/miranda.png';
+import toggle from '../images/toogle.svg';
+import map from '../images/map.png';
+import location from '../images/location-pin.svg';
+import phone from '../images/phone-call.svg';
+import envelope from '../images/regular_envelope.svg';
 
-import './css/landing.css';
-import Navbar from './js/navbar.js'
-import Footer from './js/footer.js';
-import Dashboard_img from './images/dashboard.png';
-import increase_icon from './images/increase_icon.svg';
-import central_icon from './images/central_icon.svg';
-import random_icon from './images/random_icon.svg';
-import loop_icon from './images/loop_icon.png';
-import about from './images/about.png';
-import tick from './images/tick.svg';
-import feature from './images/feature.png';
-import dashboard2 from './images/dashboard2.png';
-import steve from './images/steve.png';
-import muthoni from './images/muthoni.png';
-import paulo from './images/paulo.png';
-import miranda from './images/miranda.png';
-import toggle from './images/toogle.svg';
-import location from './images/location-pin.svg';
-import phone from './images/phone-call.svg';
-import envelope from './images/regular_envelope.svg';
-
-function App() {
+function LandingPage() {
   return (
     <div className="landing_page">
       <Navbar />
@@ -382,15 +381,15 @@ function App() {
     <div className="map" >
       <div className="map-header" > Contact</div>
 
-      <div className='address' ><img src={location}  className='icon' alt='icon' /> 
+      <div className='address' ><img src={location}  className='icon' /> 
       <p  className='address-text'> Ojobo, East Legon <br/> Greater Accra, Ghana</p> 
        </div>
 
-       <div className='address' ><img src={phone}  className='icon' alt='icon' /> 
+       <div className='address' ><img src={phone}  className='icon' /> 
       <p  className='address-text'> +233 567 908 44</p> 
        </div>
 
-       <div className='address' ><img src={envelope}  className='icon' alt='icon' /> 
+       <div className='address' ><img src={envelope}  className='icon' /> 
       <p  className='address-text'> info@veritly.com</p> 
        </div>
 
@@ -410,4 +409,4 @@ function App() {
   );
 }
 
-export default App;
+export default LandingPage;

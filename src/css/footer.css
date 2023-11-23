@@ -1,0 +1,55 @@
+.footer {
+    color: gray;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 10px 40px;
+
+
+}
+
+.footer-logo {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: left;
+    align-content: left;
+    align-items: left;
+}
+
+
+.quick-links {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: max-content;
+    align-items: left;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0;
+}
+
+.quick-links a {
+    color: gray;
+}
+
+.quick-links h3 {
+    color: var(--primary-blue);
+}
+
+.company-links,
+.product-links,
+.help-links,
+.download-links {
+    width: 250px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+}
