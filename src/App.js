@@ -19,7 +19,7 @@ import steve from './images/steve.png';
 import muthoni from './images/muthoni.png';
 import paulo from './images/paulo.png';
 import miranda from './images/miranda.png';
-import toggle from './images/toogle.svg';
+//import toggle from './images/toogle.svg';
 import location from './images/location-pin.svg';
 import phone from './images/phone-call.svg';
 import envelope from './images/regular_envelope.svg';
@@ -117,15 +117,16 @@ And they are highly secure against counterfeiting.
           <div className="about-elements">
             <TEXTTOGGLE
               header="Our Vision"
-              description="To rebuild trust in the education industry by providing secure, and efficient digital certificate solutions that empower universities."
+              description="To rebuild trust in the education industry by providing secure, efficient, and fast digital certificate solutions that empower universities with higher productivity and safeguards their reputation"
             />
             <TEXTTOGGLE
               header="Our Mission"
-              description="MISSION Combine multiple reports into a single beautiful dashboard lorem ipsum a met."
+              description="To bring innovative technology to private universities, streamline certificate management processes, and ensure the trustworthiness of academic achievements. We aim to enhance the value of certificates for individuals while combating fraud."
             />
             <TEXTTOGGLE
               header="Our Values"
-              description=" VALUES multiple reports into a single beautiful dashboard lorem ipsum a met."
+              description=" Innovation We continuously strive to innovate and leverage cutting-edge technology to improve credentialing processes.
+              "
             />
           </div>
         </div>
@@ -190,7 +191,7 @@ And they are highly secure against counterfeiting.
 
       <div className="team-container">
         <a href="/">
-          <button> OUR TEAM </button>
+          {/* <button> OUR TEAM </button> */}
         </a>
         <div className="team-header"> Meet Our Team of Experts </div>
         <div className="team-text">
