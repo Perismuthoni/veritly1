@@ -161,11 +161,11 @@
   height: 100%;
   width: 50%;
   padding:0 60px;
-  background-color: #F6F5F8;
+  background-color: inherit;
   color: var(--primary-blue);
   border-radius: 10px;
   text-align: left;
-  border: 1px solid green;
+
 }
 
 .about-btn {
@@ -181,7 +181,6 @@
 
 
 .about-header {
-  border: 1px solid red;
   font-size: 2.5em;
   font-weight: bold;
   font-family:Arial, Helvetica, sans-serif;
@@ -198,13 +197,12 @@
   width: 50%;
   height: 100%;
   padding: 0 0 10px 10px;
-  background-color: #F6F5F8;
+  background-color: inherit;
   color: var(--primary-blue);
   display: flex;
   justify-content: right;
   align-content: right;
   border-radius: 10px;
-  border: 1px solid red;
 }
 
 .about-image img {
@@ -219,7 +217,7 @@
 
 .features-container {
   display: flex;
-  margin: 0;
+  margin:  7vh 0px;
   width: 100vw;
   height: 90vh;
   align-items: center;
@@ -234,7 +232,7 @@
   width: 50%;
   height: 100%;
   padding: 0 0 10px 10px;
-  background-color: #F6F5F8;
+  background-color: inherit;
   color: var(--primary-blue);
   display: flex;
   justify-content: right;
@@ -255,12 +253,23 @@
   height: 100%;
   width: 50%;
   padding: 40px;
-  background-color: #F6F5F8;
+  background-color: inherit;
   color: var(--primary-blue);
   justify-content: right;
   align-content: center;
   border-radius: 10px;
   text-align: left;
+}
+.features-details h1{
+  font-size:3em;
+  font-weight:bold;
+
+}
+.features-details p{
+  font-size:1em;
+  font-weight:normal;
+  color: rgba(0, 0, 0, 0.5);
+
 }
 
 .action-container {
@@ -314,17 +323,21 @@
   align-items: center;
   justify-content: center;
   align-content: center;
-  border: 1px solid red;
 }
 .team-container button{
   width: max-content;
-  height:30px;
-  background-color: orange;
+  padding: 0 5px;
+  height:25px;
+  background-color: rgb(231, 172, 61);
   color: var(--primary-orange);
+  border: none;
+  border-radius: 10px;
+  margin: 30px 0px;
 }
 .team-header{
   font-size: 3.2em;
   font-weight:bold;
+  margin: 20px 0px;
 }
 .team-text{
   font-size: 1.5em;
@@ -332,6 +345,7 @@
   width: 50%;
   color: #0F0049(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 4vh;
 }
 .team-images-container {
   display: flex;
@@ -402,7 +416,7 @@ ul li::before {
 
 
 .faq{
-  height: max-content;
+  height:  80px;
   border: 1px solid #141414;
   margin: 10px;
   border-radius: 5px;
@@ -410,6 +424,7 @@ ul li::before {
   flex-direction: column;
   justify-content: center;
   position: relative;
+  background-color:white;
   
 }
 .faq-questions{
@@ -440,6 +455,7 @@ ul li::before {
   font-size: 1.7em;
   font-weight: 100;
   color: gray;
+  margin-bottom: 5vh;
 
 }
 
@@ -503,4 +519,9 @@ ul li::before {
 .contact-form{
   width: 50%;
   background-color: var(--primary-blue);
+}
+
+hr{
+  background-color:gray;
+  height:1px;
 }

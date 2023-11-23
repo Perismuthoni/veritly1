@@ -32,13 +32,13 @@ function App() {
       <div className="landing-container">
         <div className="landing-left">
           <div className="landing-header">
-          Tired of the 
-hassle in certificate management?
+            The Future of Certificate Management and Verification.
           </div>
 
           <div className="landing-paragragh">
-          Create, distribute and manage your certificates in seconds with Veritly. 
-And they are highly secure against counterfeiting.
+            Digitize your certificates and enjoy instant verification from
+            anywhere in the world. Store all your certificates in one secure
+            location, easily accessible whenever you need them.
           </div>
 
           <div className="landing-buttons">
@@ -58,7 +58,8 @@ And they are highly secure against counterfeiting.
 
       <div className="proposition-container">
         <div className="proposition-header">
-        Save time, gain efficiency and eliminate fraud risks
+          Are you tired of managing physical certificates or dealing with
+          fraudulent credentials?
         </div>
 
         <div className="container-stat">
@@ -110,14 +111,15 @@ And they are highly secure against counterfeiting.
           </a>
 
           <div className="about-header">
-          We give you the freedom  to create, issue and manage fraud-proof certificates in seconds!
+            We provide digital credentials that can be verified in seconds from
+            anywhere in the world
           </div>
           <hr />
 
           <div className="about-elements">
             <TEXTTOGGLE
               header="Our Vision"
-              description="To rebuild trust in the education industry by providing secure, and efficient digital certificate solutions that empower universities."
+              description="Combine multiple reports into a single beautiful dashboard lorem ipsum a met."
             />
             <TEXTTOGGLE
               header="Our Mission"
@@ -141,26 +143,27 @@ And they are highly secure against counterfeiting.
         </div>
 
         <div className="features-details">
-          {/* <a href="/">
+          <a href="/">
             <button> FEATURES </button>
-          </a> */}
-          <h1>Revolutionize certificate management  </h1>
+          </a>
+          <h1> Revolutionize certificate management and creation </h1>
           <p>
-          
-          Viritly combines the power of blockchain technology with user-friendly features to provide a seamless and secure experience.
+            {' '}
+            Viritly combines the power of blockchain technology with
+            user-friendly features to provide a seamless and secure experience.{' '}
           </p>
           <hr />
           <span>
-            <img src={tick} alt="tick" /> Customize
+            <img src={tick} alt="tick" /> Instant Verification{' '}
           </span>
           <span>
-            <img src={tick} alt="tick" /> Create
+            <img src={tick} alt="tick" /> Certificate Creation and Customization{' '}
           </span>
           <span>
-            <img src={tick} alt="tick" /> Generate
+            <img src={tick} alt="tick" /> Centralized Certificate Repository{' '}
           </span>
           <span>
-            <img src={tick} alt="tick" /> Manage certificates
+            <img src={tick} alt="tick" /> Blockchain Security{' '}
           </span>
         </div>
       </div>
@@ -246,7 +249,7 @@ And they are highly secure against counterfeiting.
       </div>
 
       <div className="faq-container">
-        {/* <button className="faq-button"> FAQ</button> */}
+        <button className="faq-button"> FAQ</button>
         <div className="faq-header"> Frequently asked questions </div>
         <div className="faq-desc">
           We have put together some common questions people ask
