@@ -19,6 +19,7 @@
   word-wrap: break-word;
   width: 100vw;
   margin: 0;
+  border: 1px solid red;
 }
 
 
@@ -150,16 +151,9 @@
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
-  border: 1px solid red;
   padding: 0 60px;
 }
 
-.about-details {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 50%;
-}
 
 .about-details {
   display: flex;
