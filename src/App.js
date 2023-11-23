@@ -285,25 +285,35 @@ And they are highly secure against counterfeiting.
       </div>
 
       <div className="pricing-container">
-        <button>PRICING</button>
+        {/* <button>PRICING</button> */}
         <div className="pricing-desc">
-          <div> Ready to get started with Veritly?</div>
-          <div>Choose the package that suits you</div>
-          <div>
-            {' '}
+          <div  className='pricing-desc-header' > Ready to get started with<br/> Veritly ?</div>
+          <div className='package' >Choose the package that suits you</div>
+          < div className='pricing-buttons' >
+           
+          
+
             <span>
-              Monthly <img className="logo" src={toggle} alt="toggle-button" />{' '}
+            Monthly <button className='monthly-button'>  discount </button>{' '}
             </span>
+
             <span>
-              {' '}
-              Annualy <button> 20% discount </button>{' '}
-            </span>{' '}
+              Annualy <button className='annualy-button'>  20% discount </button>{' '}
+            </span>
           </div>
         </div>
 
+      
+          {/* <div className='basic-premium' >
+            <div className='basic' > Basic </div>
+            <div className='premium'> Premium </div>
+
+          </div> */}
+       
+
         <div className="plans">
           <div className="plan">
-            <div className="plan-header"> Starter</div>
+            <div className="plan-header"> Basic</div>
             <div className="plan-text">
               {' '}
               with all your customers via all conversation channels in one

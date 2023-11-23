@@ -358,28 +358,90 @@
   flex-direction: column;
   margin: 0;
   width: 100vw;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .pricing-desc {
   display: flex;
   flex-direction: column;
 }
+.pricing-desc-header{
+  font-size:3.2em;
+  font-weight:bold;
+  color:var(--primary-blue);
+  margin: 4vh 0px;
+}
+.package{
+  font-size:2em;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 4vh 0px;
+}
+.pricing-buttons{
+  display: flex;
+  justify-content:space-evenly;
+  margin: 5vh 0px;
+  padding-bottom: 5vh;
+  border-bottom: 3px solid gray;
+}
+.pricing-buttons span{
+  justify-content:center;
+  align-items:center;
+  align-content: center;
+  font-size: 1.5em;
+  color:var(--primary-blue);
+  
+}
+.monthly-button{
+  background-color: var(--primary-orange);
+  width: 70px;
+  height: 30px;
+  border-radius: 70px;
+  border:none;
+
+}
+.annualy-button{
+  background-color: #FFE87A;
+  width: 100px;
+  height: 30px;
+  border-radius: 70px;
+  border:none;
+  font-size: 0.5em;
+
+}
+.basic-premium{
+  display: flex;
+  margin: 4vh 1px;
+  width: 100%;
+padding: 0px 10%;
+
+}
+.basic{
+  border-bottom: 3px solid var(--primary-orange);
+  width: 50%;
+}
+.premium{
+  border-bottom: 3px solid gray;
+  width: 50%;
+}
 
 .plans {
   display: flex;
-  justify-content: space-evenly;
-  padding: 0 10px;
-  border: solid 1px red;
-
+  width:100%;
+  justify-content: space-between;
+  padding: 0 15%;
+  margin-bottom: 10vh ;
 }
 
 .plan {
-  width: 300px;
+  width: 250px;
   min-height: 70vh;
   border-radius: 10px;
   border: solid 1px grey;
   text-align: left;
   padding: 10px 10px;
+  border: solid 1px grey;
 }
 
 .plan-header {
@@ -425,6 +487,8 @@ ul li::before {
   justify-content: center;
   position: relative;
   background-color:white;
+  overflow: hidden;
+  transition: height 0.3s;
   
 }
 .faq-questions{
@@ -444,6 +508,10 @@ ul li::before {
 /* .faq-answer.toggle{
   display: none;
 } */
+
+.faq.expanded {
+  height: auto; /* Allow the container to expand to fit its content */
+}
 
 .faq-header {
   font-size: 3em;

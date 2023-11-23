@@ -8,12 +8,12 @@ const FAQ = (props) => {
   const toggleAnswer = () => {
     setIsAnswerVisible(!isAnswerVisible);
   };
+
   return (
-    <div className="faq">
+    <div className={`faq ${isAnswerVisible ? 'expanded' : ''}`}>
       <div className="faq-question"> 
-       { props.title }
+        {props.title}
         <img src={dropdown} alt="drop-down" onClick={toggleAnswer} />
-       
       </div>
       {isAnswerVisible && (
         <div className="faq-answer">{props.description}</div>
