@@ -105,12 +105,12 @@ And they are highly secure against counterfeiting.
 
       <div className="about-container">
         <div className="about-details">
-          <a href="/">
+          {/* <a href="/">
             <button className="about-btn"> ABOUT VERITLY </button>
-          </a>
+          </a> */}
 
           <div className="about-header">
-          We give you the freedom  to create, issue and manage fraud-proof certificates in seconds!
+          Enjoy the freedom to create, issue and manage fraud-proof certificates in seconds!
           </div>
           <hr />
 
@@ -342,7 +342,7 @@ And they are highly secure against counterfeiting.
               with all your customers via all conversation channels in one
               central dashboard.
             </div>
-            <div className="plan-header"> $0</div>
+            <div className="plan-header"> $180</div>
             <div className="plan-text"> Per month </div>
             <button> Choose this Plan </button>
             <ul>
@@ -359,14 +359,12 @@ And they are highly secure against counterfeiting.
           </div>
 
           <div className="plan">
-            <div className="plan-header"> Starter</div>
+            <div className="plan-header"> Custom</div>
             <div className="plan-text">
-              {' '}
-              with all your customers via all conversation channels in one
-              central dashboard.
+            with all your customers via all conversation channels in one central dashboard.
             </div>
-            <div className="plan-header"> $0</div>
-            <div className="plan-text"> Per month </div>
+            <div className="plan-header"> Let's talk</div>
+            <div className="plan-text">  </div>
             <button> Choose this Plan </button>
             <ul>
               <li>2GB SSD </li>

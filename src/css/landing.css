@@ -146,7 +146,7 @@
   display: flex;
   margin: 0;
   width: 100vw;
-  height: 90vh;
+  height: max-content;
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
@@ -478,7 +478,7 @@ ul li::before {
 
 .faq{
   height:  80px;
-  border: 1px solid #141414;
+  border: none;
   margin: 10px;
   border-radius: 5px;
   display: flex;
@@ -491,7 +491,6 @@ ul li::before {
   
 }
 .faq-questions{
-  border: 1px solid steelblue;
   display: grid;
   grid-template-columns: repeat(2, 40%);
   justify-content: center;

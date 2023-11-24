@@ -1,10 +1,12 @@
 .toggle{
     width: 100%;
+    margin-bottom: 20px ;
 }
 .header{
-    font-size:1.5em;
-    font-weight:light;
+    font-size:1.7em;
+    font-weight:normal;
+    margin-bottom: 20px ;
 }
 .desc{
-    width: 60%;
+    padding: 0px 10px;
 }
