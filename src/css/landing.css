@@ -1,5 +1,6 @@
 :root {
-  --primary-blue: #0F0049;
+  --primary-blue-old: #0F0049;
+  --primary-blue: #000080;
   --faded-blue: #0F0049(0, 0, 0, 0.5);
   --primary-orange: #FF6A00;
   --button-padding: 10px;
@@ -29,7 +30,7 @@
   width: 100vw;
   min-height: 90vh;
   height: max-content;
-  background-color: #0F0049;
+  background-color: var(--primary-blue);
   padding-top: 80px;
 }
 
