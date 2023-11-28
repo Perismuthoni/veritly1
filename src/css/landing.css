@@ -1,5 +1,5 @@
 :root {
-  --primary-blue-old: #0F0049;
+  --primary-blueee: #0F0049;
   --primary-blue: #000080;
   --faded-blue: #0F0049(0, 0, 0, 0.5);
   --primary-orange: #FF6A00;
@@ -476,55 +476,6 @@ ul li::before {
   background-color: whitesmoke;
 }
 
-
-.faq{
-  height:  80px;
-  border: none;
-  margin: 10px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  background-color:white;
-  overflow: hidden;
-  transition: height 0.3s;
-  
-}
-.faq-questions{
-  display: grid;
-  grid-template-columns: repeat(2, 40%);
-  justify-content: center;
-}
-
-.faq-button {
-  width: max-content;
-}
-.faq-answer{
-  position: absolute;
-  top: 50px;
-}
-/* .faq-answer.toggle{
-  display: none;
-} */
-
-.faq.expanded {
-  height: auto; /* Allow the container to expand to fit its content */
-}
-
-.faq-header {
-  font-size: 3em;
-  font-weight: bold;
-  color: var(--primary-blue);
-}
-
-.faq-desc {
-  font-size: 1.7em;
-  font-weight: 100;
-  color: gray;
-  margin-bottom: 5vh;
-
-}
 
 
 
